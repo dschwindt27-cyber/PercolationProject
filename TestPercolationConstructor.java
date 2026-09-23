@@ -10,7 +10,6 @@ public class TestPercolationConstructor {
     }
 
     public static void main(String[] args) {
-        /*
         System.out.println("--- valid constructor arguments ---");
         boolean validOne = true;
         try {
@@ -61,6 +60,6 @@ public class TestPercolationConstructor {
         }
         check("new Percolation(-1) throws IllegalArgumentException", negativeOneThrows);
 
-         */
+
     }
 }

@@ -10,7 +10,6 @@ public class TestPercolates {
     }
 
     public static void main(String[] args) {
-        /*
         System.out.println("--- fresh and 1x1 grids ---");
         Percolation fresh = new Percolation(5);
         check("fresh 5x5 grid does not percolate", !fresh.percolates());
@@ -46,6 +45,6 @@ public class TestPercolates {
         adjacent.open(2, 1);
         check("vertically connected 2x2 openings percolate", adjacent.percolates());
 
-         */
+
     }
 }
