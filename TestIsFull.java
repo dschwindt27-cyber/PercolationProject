@@ -35,7 +35,7 @@ public class TestIsFull {
         backwash.open(3, 2);
         check("column 2 creates percolation", backwash.percolates());
         backwash.open(3, 1);
-        check("bottom site outside the path is not full", backwash.isFull(3, 1));
+        check("bottom site outside the path is not full", !backwash.isFull(3, 1));
 
         System.out.println("--- out-of-bounds arguments ---");
         boolean rowZeroThrows = false;
