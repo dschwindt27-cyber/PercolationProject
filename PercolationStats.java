@@ -9,7 +9,7 @@ public class PercolationStats {
     private final double mean;
     private final double stddev;
 
-    public PercolationStats(int n, int trials) {
+    public PercolationStats(int n, int trials){
         if (n <= 0 || trials <= 0) {
             throw new IllegalArgumentException("n and trials must be greater than 0");
         }
