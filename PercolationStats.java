@@ -47,6 +47,7 @@ public class PercolationStats {
         return mean + CONFIDENCE_95 * stddev / Math.sqrt(trials);
     }
 
+    /*
     public static void main(String[] args) {
         int n = Integer.parseInt(args[0]);
         int trials = Integer.parseInt(args[1]);
@@ -56,5 +57,6 @@ public class PercolationStats {
         StdOut.println("95% confidence interval = ["
                 + stats.confidenceLo() + ", " + stats.confidenceHi() + "]");
     }
+    */
 }
 
